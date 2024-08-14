@@ -22,14 +22,20 @@ body {
     
 }
 
+.mae{
+    max-width: fit-content;
+}
+
 .header {
+    width: 1903px;
     background-size: 20px 20px, 20px 20px;
     padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
 }
+
 
 .logo {
     color: #FFFFFF;
@@ -126,7 +132,7 @@ input:checked + .slider:before {
 .topo_1{
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-around;
 }
 
 .topo_1 div h1{
@@ -163,9 +169,14 @@ input:checked + .slider:before {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.site_topo{
+    max-width: 100%;
+}
+
 /* estrutura molecular do dna FIM DO CSS */
 
 .topo_2{
+    justify-content: space-around;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
